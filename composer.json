@@ -1,0 +1,30 @@
+{
+  "name": "master-7/password",
+  "type": "package",
+  "version": "dev-master",
+  "description": "Generate the random password of the word",
+  "keywords": ["password", "generate", "random"],
+  "source": {
+    "url": "git@github.com:master-7/pass-word-generator.git",
+    "type": "git",
+    "reference": "master"
+  },
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "authors": [
+    {
+      "name": "Nick Masters"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "master7\\password\\": "."
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 <?php
 
-namespace master7\pass;
+namespace master7\password;
 
 /**
  * Class PassWordGenerator
- * @package master7\pass
+ * @package master7\password
  */
 class PassWordGenerator {
 
